@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+
+<script>
+  $(function() {
+    $( "#accordion" ).accordion({
+        active: false,
+        collapsible: true   
+    } );
+  });
+</script>
+    <link rel="stylesheet" href="css2/normalize.css">
+    <link rel="stylesheet" href="css2/styles2.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+           <img src="./img2/Логотип1.png" alt="" class="header-logo">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="" class="nav-list-link">О нас</a></li>
+                <li class="nav-list-item"><a href="" class="nav-list-link">Проекты</a></li>
+                <li class="nav-list-item"><a href="" class="nav-list-link">Этапы</a></li>
+                <li class="nav-list-item"><a href="" class="nav-list-link">Отзывы</a></li>
+                <li class="nav-list-item"><a href="" class="nav-list-link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div><button class="header-btn" aria-label="Найти"></button></div>
+         <div class="tablet-header">
+          <img src="./img2/Логотип2.png" alt="" class="mobile-header-logo">
+          <div class="hamburger">
+            <div class="header-tablet-btn menuToggle">
+              <img src="./img2/logo.png" alt="" class="tablet-header-logo">
+            <div class="burger"></div>
+            </div>
+            <ul class="menu">
+            <li><a href="" class="menu-burger">О нас</a></li>
+            <li><a href="" class="menu-burger">Проекты</a></li>
+            <li><a href="" class="menu-burger">Этапы</a></li>
+            <li><a href="" class="menu-burger">Отзывы</a></li>
+            <li><a href="" class="menu-burger">Контакты</a></li>
+            </ul>
+            </div>  
+           <img src="./img2/logo.png" alt="" class="tablet-header-logo">
+           <button class="tablet-search"></button>
+         </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-hero">
+            <div class="container">
+                <div class="hero-image">
+                  <!-- Slider main container -->
+<div class="swiper-container" aria-label="Свайпер с информацией.">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./img2/low-angle-photo-of-balconies-24620151.jpg" alt="">
+        <div class="hero-list">
+          <div class="hero-list-item">
+              <p class="hero-list-header">
+                  Проектные решения любой сложности
+              </p>
+          </div>
+          <div class="hero-list-item">
+            <p class="hero-list-description">
+              Есть над чем задуматься: базовые сценарии поведения
+              <br>
+               пользователей и по сей день остаются уделом проектантов
+            </p>
+          </div>
+          <div class="hero-list-item">
+              <button class="hero-list-btn">
+                  Заказать расчёт
+              </button>
+          </div>
+      </div>
+    </div>
+      <div class="swiper-slide"><img src="./img2/apartment-apartment-building-architecture-building-3237051.png" alt=""><div class="hero-list">
+          <div class="hero-list-item">
+              <p class="hero-list-header">
+                  Проектные решения любой сложности
+              </p>
+          </div>
+          <div class="hero-list-item">
+            <p class="hero-list-description">
+              Есть над чем задуматься: базовые сценарии поведения
+              <br>
+               пользователей и по сей день остаются уделом проектантов
+            </p>
+          </div>
+          <div class="hero-list-item">
+              <button class="hero-list-btn">
+                  Заказать расчёт
+              </button>
+          </div>
+      </div></div>
+      <div class="swiper-slide"><img src="./img2/brown-and-blue-glass-building-20930761.png" alt=""><div class="hero-list">
+          <div class="hero-list-item">
+              <p class="hero-list-header">
+                  Проектные решения любой сложности
+              </p>
+          </div>
+          <div class="hero-list-item">
+            <p class="hero-list-description">
+              Есть над чем задуматься: базовые сценарии поведения
+              <br>
+               пользователей и по сей день остаются уделом проектантов
+            </p>
+          </div>
+          <div class="hero-list-item">
+              <button class="hero-list-btn">
+                  Заказать расчёт
+              </button>
+          </div>
+      </div></div>
+      ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+                 
+                </div>
+            </div>
+        </section>
+        <section class="tablet-hero">
+          <div class="container">
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+            <div class="swiper-slide"><div class="tablet-image">
+            <div class="tablet-hero-list">
+              <div class="tablet-hero-list-item">
+                  <p class="tablet-hero-list-header">
+                      Проектные решения любой сложности
+                  </p>
+              </div>
+              <div class="tablet-hero-list-item">
+                <p class="tablet-hero-list-description">
+                  Есть над чем задуматься: базовые сценарии поведения
+                  <br>
+                   пользователей и по сей день остаются уделом проектантов
+                </p>
+              </div>
+              <div class="tablet-hero-list-item">
+                  <button class="tablet-hero-list-btn">
+                      Заказать расчёт
+                  </button>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="swiper-slide"><div class="tablet-image-second">
+            <div class="tablet-hero-list">
+              <div class="tablet-hero-list-item">
+                  <p class="tablet-hero-list-header">
+                      Проектные решения любой сложности
+                  </p>
+              </div>
+              <div class="tablet-hero-list-item">
+                <p class="tablet-hero-list-description">
+                  Есть над чем задуматься: базовые сценарии поведения
+                  <br>
+                   пользователей и по сей день остаются уделом проектантов
+                </p>
+              </div>
+              <div class="tablet-hero-list-item">
+                  <button class="tablet-hero-list-btn">
+                      Заказать расчёт
+                  </button>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="swiper-slide"><div class="tablet-image-third">
+            <div class="tablet-hero-list">
+              <div class="tablet-hero-list-item">
+                  <p class="tablet-hero-list-header">
+                      Проектные решения любой сложности
+                  </p>
+              </div>
+              <div class="tablet-hero-list-item">
+                <p class="tablet-hero-list-description">
+                  Есть над чем задуматься: базовые сценарии поведения
+                  <br>
+                   пользователей и по сей день остаются уделом проектантов
+                </p>
+              </div>
+              <div class="tablet-hero-list-item">
+                  <button class="tablet-hero-list-btn">
+                      Заказать расчёт
+                  </button>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-about">
+            <div class="container">
+                <div class="section-about-block">
+                  <h3 class="section-about-header">О нас</h3>
+                <p class="section-about-description">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий  с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны  максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как  самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип <img src="img2/iТултип(1).png" alt="" class="i-logo"> будущего проекта
+                предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться  от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.
+                </p>
+                </div>
+                <div class="blocks">
+                    <div class="more">
+                       <div class="bona">
+                        <div class="more-list">
+                          <div class="more-list-item">
+                              <span class="more-list-item-description">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.
+                              </span>
+                          </div>
+                          <div class="more-list-item"><button class="more-btn">Подробнее</button></div>
+                        </div>
+                       </div>
+                       <ul class="blocks-list">
+                         <li class="blocks-list-item">
+                           <ul class="blocks-list-item-list">
+                             <li class="blocks-list-item-list-item"><img class="blocks-list-item-img" src="./img2/Group25.png" alt=""/></li>
+                             <li class="blocks-list-item-list-item-tablet"><img class="blocks-list-item-img-tablet" src="./img2/new1.png" alt=""/></li>
+                             <li class="blocks-list-item-list-text">
+                               <span class="blocks-list-item-header">
+                                 Консультация с широким активом
+                               </span>
+                               <br>
+                               <span class="blocks-list-item-description">
+                                А также свежий взгляд на привычные вещи -  безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых  концептуальных решений.
+                               </span>
+                             </li>
+                           </ul>
+                         </li>
+                         <li class="blocks-list-item">
+                          <ul class="blocks-list-item-second">
+                            <li class="blocks-list-item-list-item"><img class="blocks-list-item-img-second" src="./img2/Group24.png" alt=""/></li>
+                            <li class="blocks-list-item-list-item-tablet"><img class="blocks-list-item-img-tablet-second" src="./img2/new2.png" alt=""/></li>
+                            <li class="blocks-list-item-list-text">
+                              <span class="blocks-list-item-header">
+                                В своём стремлении повысить
+                              </span>
+                              <br>
+                              <span class="blocks-list-item-description">
+                                Качество жизни, они забывают, что сплочённость  команды профессионалов представляет собой интересный эксперимент проверки прогресса  профессионального сообщества. 
+                              </span>
+                            </li>
+                          </ul>
+                         </li>
+                        </ul>
+                     </div>
+                    </div>
+
+                <div class="mobile-blocks">
+                  <div class="mobile-block-first">
+                    <img class="mobile-block-img" src="./img2/striyka.png" alt="" />
+                    <span class="mobile-block-first-description">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.
+                    </span>
+                    <button class="mobile-block-first-btn">Подробнее</button>
+                  </div>
+                  <div class="mobile-block-second">
+                    <img class="mobile-block-image" src="./img2/Group252.png" alt="" />
+                    <span class="mobile-block-header">Консультация с широким активом</span>
+                    <span class="mobile-block-second-description">А также свежий взгляд на привычные вещи -  безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых  концептуальных решений.</span>
+                  </div>
+                  <div class="mobile-block-third">
+                    <img class="mobile-block-png" src="./img2/Group242.png" alt="" />
+                    <span class="mobile-block-header">В своем стремлении повысить</span>
+                    <span class="mobile-block-second-description-second">А также свежий взгляд на привычные вещи -  безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых  концептуальных решений.</span>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-work">
+          <div class="container">
+           <h3 class="section-about-header">Как мы работаем</h3>
+            <ul class="work-list" aria-label="Табы с дополнительной информацией.">
+              <li class="work-list-item"><div class="work-list-item tabs-btn" data-path="one">1 шаг</div></li>
+              <li class="work-list-item"><div class="work-list-item tabs-btn" data-path="two">2 шаг</div></li>
+              <li class="work-list-item"><div class="work-list-item tabs-btn" data-path="three">3 шаг</div></li>
+              <li class="work-list-item" id="fourth"><div class="work-list-item tabs-btn" id="fourth_margin" data-path="four">4 шаг</div></li>
+            </ul>
+          <div class="tab-content tab-content-active" data-target="one">
+           <img src="./img2/work2.png" alt="" class="work-image">
+           <img src="./img2/Rectangle182.png" alt="" class="mobile-work-img"/>
+          <div class="work-block">
+            <div class="work-text">
+              <div class="sort">
+                <span class="work-text-header">Проводим консультацию</span>
+              <span class="work-text-description">
+                Влечет за собой процесс внедрения и модернизации приоритизации разума над  эмоциями. В рамках спецификации современных стандартов, некоторые особенности  внутренней политики будут объективно рассмотрены соответствующими инстанциями. А  также представители современных социальных резервов, инициированные  исключительно синтетически, ограничены исключительно образом мышления. Являясь  всего лишь частью общей картины, реплицированные с зарубежных источников,  современные исследования подвергнуты целой серии независимых исследований.  Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают  чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+              </span>
+              </div>
+              <div class="btn-block">
+                <button class="btn-first">Подробнее</button>
+                <button class="btn-second">Договор</button>
+              </div>
+            </div>
+            <div><img src="./img2/Rectangle18.jpg" alt="" class="work-img"/></div>
+            <div><img src="./img2/work.png" alt="" class="tablet-work-img"/></div>
+         </div>
+          </div>
+
+          <div class="tab-content" data-target="two">
+            <img src="./img2/Rectangle183.png" alt="" class="work-image">
+           <img src="./img2/Rectangle183.png" alt="" class="mobile-work-img"/>
+            <div class="work-block">
+              <div class="work-text">
+                <div class="sort">
+                  <span class="work-text-header">Проводим консультацию</span>
+                <span class="work-text-description">
+Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований.
+                </span>
+                </div>
+                <div class="btn-block">
+                  <button class="btn-first">Подробнее</button>
+                  <button class="btn-second">Договор</button>
+                </div>
+              </div>
+              <div><img src="./img2/Rectangle183.png" alt="" class="work-img"/></div>
+              <div><img src="./img2/Rectangle183.png" alt="" class="tablet-work-img"/></div>
+           </div>
+           </div>
+
+           <div class="tab-content" data-target="three">
+            <img src="./img2/Rectangle19.png" alt="" class="work-image">
+            <img src="./img2/Rectangle19.png" alt="" class="mobile-work-img"/>
+            <div class="work-block">
+              <div class="work-text">
+                <div class="sort">
+                  <span class="work-text-header">Проводим консультацию</span>
+                <span class="work-text-description">
+Идейные соображения высшего порядка, а также новая модель организационной деятельности требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнить важные задания по разработке прогресса профессионального сообщества.
+                </span>
+                </div>
+                <div class="btn-block">
+                  <button class="btn-first">Подробнее</button>
+                  <button class="btn-second">Договор</button>
+                </div>
+              </div>
+              <div><img src="./img2/Rectangle19.png" alt="" class="work-img"/></div>
+              <div><img src="./img2/Rectangle19.png" alt="" class="tablet-work-img"/></div>
+           </div>
+          </div>
+
+           <div class="tab-content" data-target="four">
+            <img src="./img2/Rectangle20.png" alt="" class="work-image">
+            <img src="./img2/Rectangle20.png" alt="" class="mobile-work-img"/>
+            <div class="work-block">
+              <div class="work-text">
+                <div class="sort">
+                  <span class="work-text-header">Проводим консультацию</span>
+                <span class="work-text-description">
+                  Влечет за собой процесс внедрения и модернизации приоритизации разума над  эмоциями. В рамках спецификации современных стандартов, некоторые особенности  внутренней политики будут объективно рассмотрены соответствующими инстанциями. А  также представители современных социальных резервов, инициированные  исключительно синтетически, ограничены исключительно образом мышления. Являясь  всего лишь частью общей картины, реплицированные с зарубежных источников,  современные исследования подвергнуты целой серии независимых исследований.  Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают  чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+                </span>
+                </div>
+                <div class="btn-block">
+                  <button class="btn-first">Подробнее</button>
+                  <button class="btn-second">Договор</button>
+                </div>
+              </div>
+              <div><img src="./img2/Rectangle20.png" alt="" class="work-img"/></div>
+              <div><img src="./img2/Rectangle20.png" alt="" class="tablet-work-img"/></div>
+           </div>
+          </div>
+          </div>
+        </section>
+
+
+        <section class="section-questions">
+          <div class="container questions-container">
+            <h3 class="section-about-header">Часто задаваемые вопросы</h3>
+            <div class="questions-list">
+              <ul id="accordion" aria-label="Расскрывающийся список">
+             <li class="question-list-item" tabindex="0">
+              <div class="ew ewe">
+                <span class="questions-list-element">Из чего формируется конечная стоимость проекта?</span>
+                <div class="questions-btn"></div>
+              </div>
+              <div tabindex="-1">
+                <p class="questions-list-element-accord">Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный прототип будущего проекта является качественно новой ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых факторов.
+
+                  Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит, должны быть объединены в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном свете. </p>
+              </div>
+            </li>
+             
+            
+             <li class="question-list-item" tabindex="0">
+              <div class="ew" tabindex="0">
+                <span class="questions-list-element" tabindex="-1">У меня есть свой проект. Сможем ли мы его доработать <span class="slash">/</span> реализовать?</span>
+                <div class="questions-btn" tabindex="-1"></div>
+              </div>
+              <div tabindex="-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita impedit dolorum nam ducimus sunt sit soluta ad, ipsa culpa nisi vero maxime dolor mollitia molestiae. Illum aliquam laudantium itaque ex?</p>
+              </div>
+             </li>
+             <li class="question-list-item" tabindex="0">
+              <div class="ew">
+               <span class="questions-list-element">Я выбираю между разными компаниями. В чём ваше отличие?</span>
+                <div class="questions-btn"></div>
+              </div>
+              <div tabindex="-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita impedit dolorum nam ducimus sunt sit soluta ad, ipsa culpa nisi vero maxime dolor mollitia molestiae. Illum aliquam laudantium itaque ex?</p>
+              </div>
+             </li>
+             <li class="question-list-item" tabindex="0">
+              <div class="ew">
+                <span class="questions-list-element">Могу ли я делегировать вам работу <span class="slash">/</span> согласование с подрядчиком <span class="slash">/</span> организацией?</span>
+                <div class="questions-btn"></div>
+              </div>
+              <div tabindex="-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita impedit dolorum nam ducimus sunt sit soluta ad, ipsa culpa nisi vero maxime dolor mollitia molestiae. Illum aliquam laudantium itaque ex?</p>
+              </div>
+             </li>
+             <li class="question-list-item" tabindex="0">
+              <div class="ew">
+                <span class="questions-list-element">Могу ли я вернуть деньги на каком-либо из этапов работ?</span>
+                <div class="questions-btn"></div>
+              </div>
+              <div tabindex="-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita impedit dolorum nam ducimus sunt sit soluta ad, ipsa culpa nisi vero maxime dolor mollitia molestiae. Illum aliquam laudantium itaque ex?</p>
+              </div>
+             </li>
+              </ul>
+            </div>
+            </div>
+        </section>
+
+        
+        </main>
+
+    <footer class="footer">
+      <div class="container">
+         <div class="main-block">
+           <div class="footer-first">
+               <img src="./img2/Логотип21.png" class="footer-logo" alt="">
+             <ul class="footer-list-first">
+               <li class="footer-list-first-item"><a href="" class="footer-list-first-item">О нас</a></li>
+               <li class="footer-list-first-item"><a href="" class="footer-list-first-item">Проекты</a></li>
+               <li class="footer-list-first-item"><a href="" class="footer-list-first-item">Отзывы</a></li>
+               <li class="footer-list-first-item"><a href="" class="footer-list-first-item">Договор оферты</a></li>
+               <li class="footer-list-first-item"><a href="" class="footer-list-first-item">Договор подряда</a></li>
+               <li class="footer-list-first-item"><a href="" class="footer-list-first-item">Конфиденциальность</a></li>
+               <li class="footer-list-first-item"><a href="" class="footer-list-first-item">Партнёрское соглашение</a></li>
+             </ul>
+             <ul class="footer-list-second">
+               <li class="footer-list-second-item"><a href="" aria-label="Ссылка на facebook"><img src="./img2/fb.png" alt="" /></a></li>
+               <li class="footer-list-second-item"><a href="" aria-label="Ссылка на Вконтакте"><img src="./img2/Vector.png" alt="" /></a></li>
+               <li class="footer-list-second-item"><a href="" aria-label="Ссылка на instagram"><img src="./img2/instagram.png" alt="" /></a></li>
+             </ul>
+           </div>
+           <div class="footer-second">
+             <div>
+              <h3 class="footer-header">Оставить заявку</h3>
+             </div>
+             <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="form">
+              <input   placeholder="Фамилия, имя и отчество*" class="name-input">
+              <input type="email" name="mail" placeholder="E-mail*" class="mail-input">
+              <textarea name="message" placeholder="Сообщение" class="message-input" aria-label="Введите ваше сообщение."></textarea>
+              <div class="send-box">
+             <button type="submit" class="btn-submit">
+                  Отправить данные
+                  </button>
+                  <label class="checkbox-text">Согласен на обработку данных
+                    <input type="checkbox" name="check" class="checkbox" checked="checked">
+                    <span class="check-span"></span>
+                  </label>
+              </div>
+              </form>
+              <div class="footer-logo-mini">
+                <img src="./img2/Логотип21.png" alt="">
+              </div>
+              <ul class="footer-list-second-mini">
+                <li class="footer-list-second-item"><a href=""><img src="./img2/fb.png" alt=""/></a></li>
+                <li class="footer-list-second-item"><a href=""><img src="./img2/Vector.png" alt=""/></a></li>
+                <li class="footer-list-second-item"><a href=""><img src="./img2/instagram.png" alt=""/></a></li>
+              </ul>
+           </div>
+           <div class="footer-third">
+             <span class="footer-third-text">Высокий уровень вовлечения <br> представителей целевой аудитории <br> является четким доказательством <br> простого факта: разбавленное изрядной <br> долей эмпатии, рациональное мышление <br> позволяет оценить значение модели <br> развития. Таким образом, консультация с <br> широким активом обеспечивает <br> широкому кругу (специалистов) участие в <br> формировании стандартных подходов. </span>
+           </div>
+         </div>
+      </div>
+    </footer>
+
+    <script>
+      var mySwiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+})
+    </script>
+
+    <script>
+$(document).ready(function() {
+$('.menuToggle').click(function(){
+$(this).toggleClass('active');
+$('.menu').slideToggle(300);
+})
+})
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.tabs-btn').forEach(function(tabsBtn) {
+      tabsBtn.addEventListener('click', function(event) {
+        const path = event.currentTarget.dataset.path
+
+        document.querySelectorAll('.tab-content').forEach(function(tabContent) {
+           tabContent.classList.remove('tab-content-active')
+        })
+        document.querySelector(`[data-target="${path}"]`).classList.add('tab-content-active')
+      })
+    })
+  })
+</script>
+</body>
+</html>
